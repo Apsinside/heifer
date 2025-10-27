@@ -1,0 +1,1 @@
+export const moo = (cowName) => `moo, ${cowName}!`;
