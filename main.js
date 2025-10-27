@@ -1,2 +1,4 @@
+import  {moo}  from "./moo.js";
+import {say} from "cowsay";
 const cowName = "interupting cow";
-console.log(`moo, ${cowName}!`);
+console.log(say({ text: moo(cowName) }));
